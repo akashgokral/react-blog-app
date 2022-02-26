@@ -1,0 +1,6 @@
+.main_wavestories {
+    display: flex;
+    border-top: 3px solid #f0f0f0;
+    padding: 35px 0px;
+    border-bottom: 3px solid #f0f0f0;
+}

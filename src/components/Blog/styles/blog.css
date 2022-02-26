@@ -1,0 +1,122 @@
+.blog {
+    display: flex;
+    justify-content: start;
+
+}
+
+.blog_icons {
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.blog_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 25px;
+}
+
+.blog_right_heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.rythm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rythm span {
+    padding: 0px 35px;
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.share span {
+    padding: 0px 35px;
+}
+
+.social_icons {
+    display: flex;
+}
+
+.social_icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.face_data_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.react_img img {
+    width: 600px;
+    height: 300px;
+}
+
+.react_content {
+    margin-top: 35px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.react_content_2 {
+    margin-top: 23px;
+}
+
+.code_img img {
+    width: 600px;
+    height: 650px;
+}
+
+.face_data_parent {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 3px solid #f0f0f0;
+    border-bottom: 3px solid #f0f0f0;
+}
+
+.rythm_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
+    margin: 25px 0px;
+
+}
+
+.blog_bottom_heading {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.blog_bottom_div_parent {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #f0f0f0;
+}
+
+.blog_bottom {
+    background-color: #fff;
+}
