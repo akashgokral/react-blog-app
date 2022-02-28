@@ -10,7 +10,7 @@ import twitter from "../Blog/twitter.png"
 import react from "../Blog/react.png"
 import code from "./code.png"
 import Blog_bottom_div from './Blog_bottom_div'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { bollywood } from '../Home/Api';
 
 
@@ -35,6 +35,10 @@ const Blog = () => {
     }, [])
     return (
         <>
+            <div className='header_2'>
+                <Link to="/"> <div><span>The </span><h1>Siren</h1></div></Link>
+                <button>Get Started</button>
+            </div>
             <div className='blog_icons'>
                 <div className='rythm'><img src={rythm}></img> <span>9.3 k</span></div>
                 <div className='share'><img src={share}></img><span> Share this article</span></div>
