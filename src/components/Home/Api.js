@@ -167,25 +167,25 @@ export const bollywoodright = [
 
 export const technology = [
     {
-        id: 12, imgurl: img60, title: "TechCrunch", content: 'Founded by Michael Arrington and later sold to AOL, TechCrunch has remained as one of the leaders covering tech industry news.'
+        id: 12, imgurl: img60, title: "TechCrunch", content: 'Founded by Michael Arrington and later sold to AOL, TechCrunch has remained as one of the leaders covering tech industry news.', cat: 'technology'
     },
     {
-        id: 13, imgurl: img61, title: "Gizmodo", content: 'Originally launched as a part of Gawker Media Network, Gizmodo is a design, technology, science and science fiction website that also features articles on politics.'
+        id: 13, imgurl: img61, title: "Gizmodo", content: 'Originally launched as a part of Gawker Media Network, Gizmodo is a design, technology, science and science fiction website that also features articles on politics.', cat: 'technology'
     },
     {
-        id: 14, imgurl: img62, title: "CNET", content: 'CNET tracks all the latest consumer technology breakthroughs and shows you whats new, what matters and how technology can enrich your life '
+        id: 14, imgurl: img62, title: "CNET", content: 'CNET tracks all the latest consumer technology breakthroughs and shows you whats new, what matters and how technology can enrich your life ', cat: 'technology'
     },
     {
-        id: 15, imgurl: img63, title: "Wired", content: 'Wired.com focuses on how emerging technologies affect culture, the economy, and politics.The website provides an in-depth coverage of current and future trends in technology.'
+        id: 15, imgurl: img63, title: "Wired", content: 'Wired.com focuses on how emerging technologies affect culture, the economy, and politics.The website provides an in-depth coverage of current and future trends in technology.', cat: 'technology'
     },
     {
-        id: 16, imgurl: img64, title: "Engadget", content: "An original home for technology news and reviews, Engadget produces the internet's most compelling videos, reviews, features and breaking news about the people, products and ideas shaping our world."
+        id: 16, imgurl: img64, title: "Engadget", content: "An original home for technology news and reviews, Engadget produces the internet's most compelling videos, reviews, features and breaking news about the people, products and ideas shaping our world.", cat: 'technology'
     },
     {
-        id: 17, imgurl: img65, title: "Ars Technica", content: 'Founded by Ken Fisher over 20 years ago, Arstechnica (Art of Technology) is devoted to the latest technology that would cater to what he called "alpha geeks": technologists and IT professionals. '
+        id: 17, imgurl: img65, title: "Ars Technica", content: 'Founded by Ken Fisher over 20 years ago, Arstechnica (Art of Technology) is devoted to the latest technology that would cater to what he called "alpha geeks": technologists and IT professionals. ', cat: 'technology'
     },
     {
-        id: 18, imgurl: img66, title: " Mashable", content: 'Mashable is a global, multi-platform media and entertainment company. Powered by its own proprietary technology, Mashable is the go-to source for tech, digital culture and entertainment content. '
+        id: 18, imgurl: img66, title: " Mashable", content: 'Mashable is a global, multi-platform media and entertainment company. Powered by its own proprietary technology, Mashable is the go-to source for tech, digital culture and entertainment content. ', cat: 'technology'
     }
 
 ]

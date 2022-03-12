@@ -11,7 +11,7 @@ import react from "../Blog/react.png"
 import code from "./code.png"
 import Blog_bottom_div from './Blog_bottom_div'
 import { useParams, Link } from 'react-router-dom'
-import { bollywood } from '../Home/Api';
+import { bollywood, technology } from '../Home/Api';
 
 
 
@@ -24,15 +24,35 @@ const Blog = () => {
     //     console.log(newd);
     // }
 
-    useEffect(() => {
-        const newd = bollywood.filter((item) => {
-            return (
-                item.id == id
+    const check = () => {
+
+        if (cat == 'bollywood') {
+            const newd = bollywood.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
             )
+            setnewData(newd);
         }
-        )
-        setnewData(newd);
-    }, [])
+        if (cat == 'technology') {
+            const newd = technology.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
+            )
+            setnewData(newd);
+        }
+
+    }
+
+
+
+    useEffect(() => {
+        check();
+    })
+
     return (
         <>
             <div className='header_2'>
@@ -46,7 +66,7 @@ const Blog = () => {
             <div className='blog_right'>
                 {<div className='blog_right_heading'>{newData.length ? newData[0].title : 'loading'}</div>}
                 <div className='face_data_div'>
-                    <Face_data name="Dmitry Nozhenko" date="Jan 28, 2019 · 10 min read" />
+                    <Face_data name={"Dmitry Nozhenko"} date="Jan 28, 2019 · 10 min read" />
                     <div className='social_icons'>
                         <img src={fb}></img>
                         <img src={insta}></img>
