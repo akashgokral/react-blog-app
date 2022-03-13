@@ -14,7 +14,7 @@ const Wavesparent = () => {
         {
           safety.map(safetyblog => {
             return (
-              <Link to='/blog'>   < Waves imgurl={safetyblog.imgurl} content={safetyblog.content} title={safetyblog.title} category="Safety_blog" date="Aug 28 2017" cat={safetyblog.cat} /></Link>
+              < Waves imgurl={safetyblog.imgurl} content={safetyblog.content} title={safetyblog.title} category="Safety_blog" date="Aug 28 2017" id={safetyblog.id} cat={safetyblog.cat} />
             )
           })
 

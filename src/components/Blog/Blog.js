@@ -11,7 +11,7 @@ import react from "../Blog/react.png"
 import code from "./code.png"
 import Blog_bottom_div from './Blog_bottom_div'
 import { useParams, Link } from 'react-router-dom'
-import { bollywood, technology } from '../Home/Api';
+import { bollywood, technology, hollywood, fitness, food, safety } from '../Home/Api';
 
 
 
@@ -19,12 +19,20 @@ import { bollywood, technology } from '../Home/Api';
 const Blog = () => {
     const { id, cat } = useParams();
     const [newData, setnewData] = useState([])
-    // const filterData = () => {
 
-    //     console.log(newd);
-    // }
 
     const check = () => {
+
+        if (cat == 'safety') {
+            const newd = safety.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
+            )
+            setnewData(newd);
+        }
+
 
         if (cat == 'bollywood') {
             const newd = bollywood.filter((item) => {
@@ -37,6 +45,32 @@ const Blog = () => {
         }
         if (cat == 'technology') {
             const newd = technology.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
+            )
+            setnewData(newd);
+        }
+        if (cat == 'hollywood') {
+            const newd = hollywood.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
+            )
+            setnewData(newd);
+        }
+        if (cat == 'fitness') {
+            const newd = fitness.filter((item) => {
+                return (
+                    item.id == id
+                )
+            }
+            )
+            setnewData(newd);
+        } if (cat == 'food') {
+            const newd = food.filter((item) => {
                 return (
                     item.id == id
                 )
@@ -60,34 +94,33 @@ const Blog = () => {
                 <button>Get Started</button>
             </div>
             <div className='blog_icons'>
-                <div className='rythm'><img src={rythm}></img> <span>9.3 k</span></div>
-                <div className='share'><img src={share}></img><span> Share this article</span></div>
+                <div className='rythm'><img src={rythm} alt="abc"></img> <span>9.3 k</span></div>
+                <div className='share'><img src={share} alt="abc"></img><span> Share this article</span></div>
             </div>
             <div className='blog_right'>
                 {<div className='blog_right_heading'>{newData.length ? newData[0].title : 'loading'}</div>}
                 <div className='face_data_div'>
                     <Face_data name={"Dmitry Nozhenko"} date="Jan 28, 2019 · 10 min read" />
                     <div className='social_icons'>
-                        <img src={fb}></img>
-                        <img src={insta}></img>
-                        <img src={wa}></img>
-                        <img src={twitter}></img>
+                        <img src={fb} alt="abc"></img>
+                        <img src={insta} alt="abc"></img>
+                        <img src={wa} alt="abc"></img>
+                        <img src={twitter} alt="abc"></img>
                     </div>
                 </div>
                 <div className='react_img'>
-                    <img src={react}></img>
+                    <img src={newData.length ? newData[0].imgurl : 'loading'} alt="abc" ></img>
                 </div>
                 <div className='react_content'>
-                    <div className="react_content_1"><p>Animation in ReactJs app is a popular topic and there are many ways to create different types of animations.Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it. If you want to create complex animations you can pay attention to GreenSock. GreenSock is the most powerful animation platform. There are also a lot of libraries, components for creating animation in React.</p>
+                    <div className="react_content_1"><p>{newData.length ? newData[0].blog_content : 'loading'}</p>
                     </div>
-                    <div className="react_content_2">
-                        <p>Let’s talk about them</p></div>
+
                 </div>
                 <div className='code_img'>
-                    <img src={code}></img>
+                    <img src={newData.length ? newData[0].imgurl2 : 'loading'} alt="abc"></img>
                 </div>
                 <div className='rythm_div'>
-                    <div className='rythm'><img src={rythm}></img> <span>9.3 k claps</span></div>
+                    <div className='rythm'><img src={rythm} alt="abc"></img> <span>9.3 k claps</span></div>
                 </div>
                 <div className='face_data_parent'>
                     <Face_data name="Dmitry Nozhenko" date="Jan 28, 2019 · 10 min read" written="Written By" />

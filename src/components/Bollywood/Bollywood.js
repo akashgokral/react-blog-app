@@ -22,7 +22,7 @@ const Bollywood = () => {
                 {
                     bollywood.map(bollywood => {
                         return (
-                            <Waves title={bollywood.title} imgurl={bollywood.imgurl} content={bollywood.content} fontsize="18" marginTop='10' category="Click to Read More" id={bollywood.id} cat={bollywood.cat} />
+                            <Waves key={bollywood.id} title={bollywood.title} imgurl={bollywood.imgurl} content={bollywood.content} fontsize="18" marginTop='10' category="Click to Read More" id={bollywood.id} cat={bollywood.cat} />
                         )
 
                     })
@@ -39,7 +39,7 @@ const Bollywood = () => {
                 {
                     bollywoodright.map(bollywoodright => {
                         return (
-                            <Bollywoodrightdiv imgurl={bollywoodright.imgurl} title={bollywoodright.title} category="Bollywood_Blogger" date="FEB 18 2022" />
+                            <Bollywoodrightdiv key={bollywoodright.id} imgurl={bollywoodright.imgurl} title={bollywoodright.title} category="Bollywood_Blogger" date="FEB 18 2022" />
                         )
                     })
                 }

@@ -63,6 +63,7 @@ import img67 from "../../Images/img67.jpg"
 import img68 from "../../Images/img68.jpg"
 import img69 from "../../Images/img69.jpg"
 import img70 from "../../Images/img70.jpg"
+import img71 from "../../Images/img71.jpg"
 
 
 
@@ -70,9 +71,9 @@ import img70 from "../../Images/img70.jpg"
 
 
 const latest = [
-    { imgurl: img4, title: 'A public art itinerary', content: 'Want to spend the day experiencing the best public art across Doha? After getting a taste of the art scene through the many pieces at Hamad International Airport, indulge by venturing across the city, to see the public art pieces scattered across it.' },
-    { imgurl: img5, title: 'Active itinerary', content: 'With its arid beauty, sunny climes and untrammeled deserts, Qatar has long called to adventurers.  Answering that call has never been more rewarding.' },
-    { imgurl: img6, title: 'Business traveller', content: 'Qatar is a financial, trading and business centre of global significance  and a world-class hub for culture, relaxation, adventure, history, and sport.' }
+    { id: '55', imgurl: img4, title: 'A public art itinerary', content: 'Want to spend the day experiencing the best public art across Doha? After getting a taste of the art scene through the many pieces at Hamad International Airport, indulge by venturing across the city, to see the public art pieces scattered across it.' },
+    { id: '56', imgurl: img5, title: 'Active itinerary', content: 'With its arid beauty, sunny climes and untrammeled deserts, Qatar has long called to adventurers.  Answering that call has never been more rewarding.' },
+    { id: '57', imgurl: img6, title: 'Business traveller', content: 'Qatar is a financial, trading and business centre of global significance  and a world-class hub for culture, relaxation, adventure, history, and sport.' }
 ]
 
 export const safety = [
@@ -122,7 +123,7 @@ export const stories = [
 
 export const bollywood = [
     {
-        id: 5, imgurl: img16, title: "Deepika Padukone looks jaw droppingly stunning in latest photos", content: 'Deepika Padukone never fails to impress us with her style. The stunning actress is an epitome of grace and charm', cat: 'bollywood'
+        id: 5, imgurl: img16, title: "Deepika Padukone looks jaw droppingly stunning in latest photos", content: 'Deepika Padukone never fails to impress us with her style. The stunning actress is an epitome of grace and charm', cat: 'bollywood', blog_content: 'Deepika Padukone never fails to impress us with her style. The stunning actress is an epitome of grace and charm. Deepika is the highest paid actress in the country today and has made it to the Top 5 of Forbes List of Richest Indian Celebs. The actor was featured in TIME magazine’s 100 Most Influential People List and is one of the few Indian actors to have attended coveted events abroad. Deepika Padukone was spotted at the airport two days ago looking fabulous in an all-black look  The actress is in New York City for a work commitment and her makeup artist shared several photos of Deepika on his Instagram account.Deepika looks breathtakingly beautiful in the snaps.Dewy makeup and soft curls accentuate her look.The actress took a sabbatical last year after the release of Padmaavat to replenish emotionally.She, however, shot for multiple commercials and magazine covers in 2018. It is not clear as to whether Deepika is shooting for a magazine cover in New York today.', imgurl2: img71
     },
     {
         id: 6, imgurl: img17, title: "Katrina Kaif is impressed with the trailer of Alia Bhatt and Ranveer Singh’s Gully Boy", content: 'Zoya Akhtar’s Gully Boy’s trailer has created a stir. The trailer of Ranveer Singh-Alia Bhatt starrer film was launched today and fans and members of the film fraternity went gaga over Ranveer and Alia’s look in the film .', cat: 'bollywood'
@@ -146,20 +147,20 @@ export const bollywood = [
 ]
 export const bolly = [
     {
-        imgurl: img23, title: " Did Justin Bieber leave THIS comment on Ranveer Singh's song from Simmba, 'Aala Re Aala'?"
+        imgurl: img23, title: " Did Justin Bieber leave THIS comment on Ranveer Singh's song from Simmba, 'Aala Re Aala'?", cat: 'bollywood'
     }
 ]
 
 
 export const bollywoodright = [
     {
-        imgurl: img24, title: "  #PinkvillaMoments: When actors spoke about their intimate & bold roles"
+        id: 40, imgurl: img24, title: "  #PinkvillaMoments: When actors spoke about their intimate & bold roles", cat: 'bollywood'
     },
     {
-        imgurl: img25, title: " Rakhi Sawant's emotional reaction on Bappi Da"
+        id: 41, imgurl: img25, title: " Rakhi Sawant's emotional reaction on Bappi Da", cat: 'bollywood'
     },
     {
-        imgurl: img26, title: " Sonali Bendre and her husband giving us the couple goal "
+        id: 42, imgurl: img26, title: " Sonali Bendre and her husband giving us the couple goal ", cat: 'bollywood'
     }
 
 
@@ -191,20 +192,20 @@ export const technology = [
 ]
 export const tech = [
     {
-        imgurl: img67, title: " The Top 10 Tech Blogs to Follow in 2020", content: "Technology blogs are great resources if you want the latest tech news. Plus, they often feature interviews with industry leaders, updates from industry events, and other unique insights to help you stay up to date on all things tech.  "
+        imgurl: img67, title: " The Top 10 Tech Blogs to Follow in 2020", content: "Technology blogs are great resources if you want the latest tech news. Plus, they often feature interviews with industry leaders, updates from industry events, and other unique insights to help you stay up to date on all things tech.  ", cat: 'technology'
     }
 ]
 
 
 export const techright = [
     {
-        imgurl: img68, title: "  Android Authority", content: "With over 7 million followers on social sites, AndroidAuthority is the largest publication dedicated to the world's most widely used operating system.  "
+        id: 43, imgurl: img68, title: "  Android Authority", content: "With over 7 million followers on social sites, AndroidAuthority is the largest publication dedicated to the world's most widely used operating system.  ", cat: 'technology'
     },
     {
-        imgurl: img69, title: "How-To Geek", content: "How-To Geek is an online technology magazine created more than a decade ago, the site’s 10,000+ in-depth articles have been read over 1 billion times with more than 15 million readers every month.  "
+        id: 44, imgurl: img69, title: "How-To Geek", content: "How-To Geek is an online technology magazine created more than a decade ago, the site’s 10,000+ in-depth articles have been read over 1 billion times with more than 15 million readers every month.  ", cat: 'technology'
     },
     {
-        imgurl: img70, title: " GeekWire ", content: 'Started almost 10 years ago, Geekwire is a technology news site with loyal, tech-savvy readers around the globe, who follow for breaking news, expert analysis and unique insights into the technology industry.'
+        id: 45, imgurl: img70, title: " GeekWire ", content: 'Started almost 10 years ago, Geekwire is a technology news site with loyal, tech-savvy readers around the globe, who follow for breaking news, expert analysis and unique insights into the technology industry.', cat: 'technology'
     }
 
 
@@ -216,125 +217,125 @@ export const techright = [
 
 export const hollywood = [
     {
-        id: 19, imgurl: img27, title: " Kanye West Implies Kris Jenner & CoreyGamble Split In Dramatic Post: ‘He’s OffOn His Next Mission’", content: 'Kanye West has started drama on his Instagram once again by implying that Kris Jenner and Corey Gamble have broken up'
+        id: 19, imgurl: img27, title: " Kanye West Implies Kris Jenner & CoreyGamble Split In Dramatic Post: ‘He’s OffOn His Next Mission’", content: 'Kanye West has started drama on his Instagram once again by implying that Kris Jenner and Corey Gamble have broken up', cat: 'hollywood'
     },
     {
-        id: 20, imgurl: img28, title: "Brooke Shields, 56, Goes Topless & PosesIn Nothing But Jeans For Stunning NewAd", content: 'Brooke Shields looked sexier than ever when she went completely topless while wearing nothing but a pair of jeans for a new Jordache campaign.'
+        id: 20, imgurl: img28, title: "Brooke Shields, 56, Goes Topless & PosesIn Nothing But Jeans For Stunning NewAd", content: 'Brooke Shields looked sexier than ever when she went completely topless while wearing nothing but a pair of jeans for a new Jordache campaign.', cat: 'hollywood'
     },
     {
-        id: 21, imgurl: img29, title: "Hannah Lee Fowler: 5 Things To Know About Sam Hunt’s Pregnant Wife Who Is Divorcing Him", content: 'Sam Hunt’s wife of five years filed for divorce from the ‘Take Your Time’ singer after years of their relationship being on and off.'
+        id: 21, imgurl: img29, title: "Hannah Lee Fowler: 5 Things To Know About Sam Hunt’s Pregnant Wife Who Is Divorcing Him", content: 'Sam Hunt’s wife of five years filed for divorce from the ‘Take Your Time’ singer after years of their relationship being on and off.', cat: 'hollywood'
     },
     {
-        id: 22, imgurl: img30, title: "Rebel Wilson Rocks Sheer Black Shirt &Leather Pants For Night Out In WestHollywood", content: 'Rebel Wilson looks hotter than ever in a night out look in L.A., sporting a stylish look as she headed to celeb hotspot Craig’s.'
+        id: 22, imgurl: img30, title: "Rebel Wilson Rocks Sheer Black Shirt &Leather Pants For Night Out In WestHollywood", content: 'Rebel Wilson looks hotter than ever in a night out look in L.A., sporting a stylish look as she headed to celeb hotspot Craig’s.', cat: 'hollywood'
     },
     {
-        id: 23, imgurl: img31, title: " Aaron Rodgers Breaks His Silence After Shailene Woodley Breakup: ‘I Love You’", content: 'Aaron Rodgers reflected on his relationship with Shailene Woodley in an emotional Instagram post after they called off their engagement. '
+        id: 23, imgurl: img31, title: " Aaron Rodgers Breaks His Silence After Shailene Woodley Breakup: ‘I Love You’", content: 'Aaron Rodgers reflected on his relationship with Shailene Woodley in an emotional Instagram post after they called off their engagement. ', cat: 'hollywood'
     },
     {
-        id: 24, imgurl: img32, title: "‘The Bachelor’: [SPOILER] Leaves After Struggling To Open Up To Clayton", content: 'With hometown dates one week away, Clayton and one woman decided to mutually end their relationship as she struggled to get vulnerable on a group date.'
+        id: 24, imgurl: img32, title: "‘The Bachelor’: [SPOILER] Leaves After Struggling To Open Up To Clayton", content: 'With hometown dates one week away, Clayton and one woman decided to mutually end their relationship as she struggled to get vulnerable on a group date.', cat: 'hollywood'
     },
     {
-        id: 25, imgurl: img33, title: "Penelope Disick, 9, TikToks With Dad Scott: ‘Too Excited To Go To Dinner’", content: 'Penelope was still rocking her brightly hued hair as she busted a move next to dad Scott Disick on the TikTok account she shares with mom Kourtney.'
+        id: 25, imgurl: img33, title: "Penelope Disick, 9, TikToks With Dad Scott: ‘Too Excited To Go To Dinner’", content: 'Penelope was still rocking her brightly hued hair as she busted a move next to dad Scott Disick on the TikTok account she shares with mom Kourtney.', cat: 'hollywood'
     }
 
 ]
 export const holly = [
     {
-        imgurl: img34, title: "Gigi Hadid Slays Sexy Backless Dress ForH&M Ad After Split From Zayn Malik"
+        imgurl: img34, title: "Gigi Hadid Slays Sexy Backless Dress ForH&M Ad After Split From Zayn Malik", cat: 'hollywood'
     }
 ]
 export const holly_right = [
     {
-        imgurl: img35, title: "Queen Elizabeth, 95, Tests Positive ForCOVID-19 & Receives Outpouring OfPrayers"
+        id: 46, imgurl: img35, title: "Queen Elizabeth, 95, Tests Positive ForCOVID-19 & Receives Outpouring OfPrayers", cat: 'hollywood'
     },
     {
-        imgurl: img36, title: "Arnold Schwarzenegger HilariouslyButchers Son Patrick’s Hair With At HomeCut"
+        id: 47, imgurl: img36, title: "Arnold Schwarzenegger HilariouslyButchers Son Patrick’s Hair With At HomeCut", cat: 'hollywood'
     },
     {
-        imgurl: img37, title: "Smokey Robinson’s Kids: Everything ToKnow About His 3 Children"
+        id: 48, imgurl: img37, title: "Smokey Robinson’s Kids: Everything ToKnow About His 3 Children", cat: 'hollywood'
     },
 
 ]
 export const fitness = [
     {
-        id: 26, imgurl: img38, title: " How to Move Beyond Coping: Tools for Self-care ", content: "If you are feeling as though you are just getting by” these days, you might want to follow the example of those who live in the so-called blue zones and follow a lifestyle that leads to both greater longevity and overall health and well-being."
+        id: 26, imgurl: img38, title: " How to Move Beyond Coping: Tools for Self-care ", content: "If you are feeling as though you are just getting by” these days, you might want to follow the example of those who live in the so-called blue zones and follow a lifestyle that leads to both greater longevity and overall health and well-being.", cat: "fitness"
     },
     {
-        id: 27, imgurl: img39, title: "A Simple Yet Powerful Method to Motivate Yourself to Exercise", content: "Learn how to take a mental victory lap each day while shifting your mood and mental state to a better one with this simple, yet powerful, technique."
+        id: 27, imgurl: img39, title: "A Simple Yet Powerful Method to Motivate Yourself to Exercise", content: "Learn how to take a mental victory lap each day while shifting your mood and mental state to a better one with this simple, yet powerful, technique.", cat: "fitness"
     },
     {
-        id: 28, imgurl: img40, title: "Tabata-style Workouts: 12 Minutes to Better Health and Fitness", content: "When time is tight, it can be difficult to do your usual 30- to 60-minute workout. For those days, a Tabata-style workout may be the answer."
+        id: 28, imgurl: img40, title: "Tabata-style Workouts: 12 Minutes to Better Health and Fitness", content: "When time is tight, it can be difficult to do your usual 30- to 60-minute workout. For those days, a Tabata-style workout may be the answer.", cat: "fitness"
     },
     {
-        id: 29, imgurl: img41, title: "Resting Your Way Through the Holiday", content: "Being intentional about how you spend the holidays will pay off in the new year, supplying you with more energy to stay engaged and active in your life."
+        id: 29, imgurl: img41, title: "Resting Your Way Through the Holiday", content: "Being intentional about how you spend the holidays will pay off in the new year, supplying you with more energy to stay engaged and active in your life.", cat: "fitness"
     },
     {
-        id: 30, imgurl: img42, title: "Respect Your Season of Life", content: "Do you tend to push hard on your goals, even when life is urging you to slow down? Here are some tips for learning how to give yourself a break and honor what you may need most during any given season of life."
+        id: 30, imgurl: img42, title: "Respect Your Season of Life", content: "Do you tend to push hard on your goals, even when life is urging you to slow down? Here are some tips for learning how to give yourself a break and honor what you may need most during any given season of life.", cat: "fitness"
     },
     {
-        id: 31, imgurl: img43, title: "How to Enjoy the Holidays Without the Guilt", content: "Are the holidays mostly cheer, celebration and joy for you? Or do you, like many, feel pressure to perform a certain way—and feel guilty if you don’t? Learn how you can create a holiday experience that is truer to your values "
+        id: 31, imgurl: img43, title: "How to Enjoy the Holidays Without the Guilt", content: "Are the holidays mostly cheer, celebration and joy for you? Or do you, like many, feel pressure to perform a certain way—and feel guilty if you don’t? Learn how you can create a holiday experience that is truer to your values ", cat: "fitness"
     },
     {
-        id: 32, imgurl: img44, title: "Rest and Relaxation is not a Luxury, it is a Necessity", content: "Optimal health and fitness, the kind all of us need, come from constantly moving your body in ways that keep you available, keep you in the game. Because no matter how hard you can push"
+        id: 32, imgurl: img44, title: "Rest and Relaxation is not a Luxury, it is a Necessity", content: "Optimal health and fitness, the kind all of us need, come from constantly moving your body in ways that keep you available, keep you in the game. Because no matter how hard you can push", cat: "fitness"
     }
 
 ]
 export const fit = [
     {
-        imgurl: img45, title: "Better Ways to Implement the Health and Fitness Advice You are Tired of Hearing"
+        imgurl: img45, title: "Better Ways to Implement the Health and Fitness Advice You are Tired of Hearing", cat: "fitness"
     }
 ]
 export const fit_right = [
     {
-        imgurl: img46, title: "Benefits of HIIT for a Busy Schedule"
+        id: 49, imgurl: img46, title: "Benefits of HIIT for a Busy Schedule", cat: "fitness"
     },
     {
-        imgurl: img47, title: "6 Benefits of a Dynamic Warm-up for Running"
+        id: 50, imgurl: img47, title: "6 Benefits of a Dynamic Warm-up for Running", cat: "fitness"
     },
     {
-        imgurl: img48, title: "Change Your Breathing, Change Your Life "
+        id: 51, imgurl: img48, title: "Change Your Breathing, Change Your Life ", cat: "fitness"
     },
 
 ]
 
 export const food = [
     {
-        id: 33, imgurl: img49, title: "Zaalouk Toasts with Burrata ", content: "Zaalouk toast for all! Golden crisp sourdough toasts topped with a smoky eggplant and tomato mixture, plus creamy burrata and olive oil drizzles over it all."
+        id: 33, imgurl: img49, title: "Zaalouk Toasts with Burrata ", content: "Zaalouk toast for all! Golden crisp sourdough toasts topped with a smoky eggplant and tomato mixture, plus creamy burrata and olive oil drizzles over it all.", cat: "food"
     },
     {
-        id: 34, imgurl: img50, title: "Instant Pot Spicy Short Rib Noodle Soup", content: "We’re making a stop in Noodle Town! This noodle-y wonder is packed with tender short ribs, bright sautéed spinach, sesame seeds, gingery broth, and noodles upon noodles."
+        id: 34, imgurl: img50, title: "Instant Pot Spicy Short Rib Noodle Soup", content: "We’re making a stop in Noodle Town! This noodle-y wonder is packed with tender short ribs, bright sautéed spinach, sesame seeds, gingery broth, and noodles upon noodles.", cat: "food"
     },
     {
-        id: 35, imgurl: img51, title: "Favorite Browned Butter Chocolate Chip Cookies", content: "Browned butter and brown sugar caramelly goodness, crispy edges, barely thick and soft centers, and melty little puddles of chocolate chips."
+        id: 35, imgurl: img51, title: "Favorite Browned Butter Chocolate Chip Cookies", content: "Browned butter and brown sugar caramelly goodness, crispy edges, barely thick and soft centers, and melty little puddles of chocolate chips.", cat: "food"
     },
     {
-        id: 36, imgurl: img52, title: "Cafe Latte Turtle Cake for Two", content: "Intensely rich chocolate cake with waterfalls of caramel and pecan jewels inspired by the delicious turtle cake from Cafe Latte. The perfect dessert for two! Or six! Or one!"
+        id: 36, imgurl: img52, title: "Cafe Latte Turtle Cake for Two", content: "Intensely rich chocolate cake with waterfalls of caramel and pecan jewels inspired by the delicious turtle cake from Cafe Latte. The perfect dessert for two! Or six! Or one!", cat: "food"
     },
     {
-        id: 37, imgurl: img53, title: "Coming Soon: The February Fun Series", content: "February is for all of the fun things, like cakes, slurpy noodle soups, sandwiches-turned-casseroles, and more. All aboard the fun train!"
+        id: 37, imgurl: img53, title: "Coming Soon: The February Fun Series", content: "February is for all of the fun things, like cakes, slurpy noodle soups, sandwiches-turned-casseroles, and more. All aboard the fun train!", cat: "food"
     },
     {
-        id: 38, imgurl: img54, title: "January Meal Plan: Week 4", content: "It’s week 4 of planning and by now, you’re a seasoned meal prepping rockstar. Get this week’s recipes – including tofu bowls, meatballs, and apple muffins!"
+        id: 38, imgurl: img54, title: "January Meal Plan: Week 4", content: "It’s week 4 of planning and by now, you’re a seasoned meal prepping rockstar. Get this week’s recipes – including tofu bowls, meatballs, and apple muffins!", cat: "food"
     },
     {
-        id: 39, imgurl: img55, title: "Thai Yellow Chicken Curry with Potatoes", content: "Thai Yellow Chicken Curry with Potatoes! Chicken, golden potatoes, onion, coconut cream, and an absolutely incredible homemade yellow curry paste sauce."
+        id: 39, imgurl: img55, title: "Thai Yellow Chicken Curry with Potatoes", content: "Thai Yellow Chicken Curry with Potatoes! Chicken, golden potatoes, onion, coconut cream, and an absolutely incredible homemade yellow curry paste sauce.", cat: "food"
     }
 
 ]
 export const fastfood = [
     {
-        imgurl: img56, title: "Kimchi Grilled Cheese - Golden brown, pan-fried Kimchi Grilled Cheese", content: "Golden brown, pan-fried Kimchi Grilled Cheese is on the menu! Melty cheese with a caramelized kimchi and bacon filling sit between two thick slices of sourdough bread. Yum, friends. YUM!"
+        imgurl: img56, title: "Kimchi Grilled Cheese - Golden brown, pan-fried Kimchi Grilled Cheese", content: "Golden brown, pan-fried Kimchi Grilled Cheese is on the menu! Melty cheese with a caramelized kimchi and bacon filling sit between two thick slices of sourdough bread. Yum, friends. YUM!", cat: "food"
     }
 ]
 export const food_right = [
     {
-        imgurl: img57, title: "Millionaire Gnocchi with Red Sauce, Herbed Ricotta, and Golden Crispies"
+        id: 52, imgurl: img57, title: "Millionaire Gnocchi with Red Sauce, Herbed Ricotta, and Golden Crispies", cat: "food"
     },
     {
-        imgurl: img58, title: "Simple Green Salad"
+        id: 53, imgurl: img58, title: "Simple Green Salad", cat: "food"
     },
     {
-        imgurl: img59, title: "Post-Holiday Coffee Date "
+        id: 54, imgurl: img59, title: "Post-Holiday Coffee Date ", cat: "food"
     }
 
 ]

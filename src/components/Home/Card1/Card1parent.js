@@ -15,7 +15,7 @@ const Card1parent = () => {
 
         latest.map(travelblog => {
           return (
-            <Card1 content={travelblog.content} imgurl={travelblog.imgurl} title={travelblog.title} />
+            <Card1 key={travelblog.id} content={travelblog.content} imgurl={travelblog.imgurl} title={travelblog.title} />
           )
         })
       }

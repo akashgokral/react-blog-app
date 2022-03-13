@@ -10,7 +10,7 @@ const Verticalgallery = () => {
   return <>
     <div className='vertical'>
       <div className='vertical_left'>
-        <div className='vertical_left_img'><img src={img15}></img></div>
+        <div className='vertical_left_img'><img src={img15} alt="abc"></img></div>
       </div>
       <div className='vertical_right'>
         <Latest heading="Top Posts" />

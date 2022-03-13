@@ -18,7 +18,7 @@ const Fitness = () => {
                     {
                         fitness.map(fitness => {
                             return (
-                                <Link to="/blog">   <Waves title={fitness.title} imgurl={fitness.imgurl} content={fitness.content} category="Click to Read More" /></Link>
+                                <Waves key={fitness.id} title={fitness.title} imgurl={fitness.imgurl} content={fitness.content} category="Click to Read More" id={fitness.id} cat={fitness.cat} />
                             )
                         })
                     }
@@ -29,7 +29,7 @@ const Fitness = () => {
                     {
                         fit_right.map(fit_right => {
                             return (
-                                <Bollywoodrightdiv title={fit_right.title} imgurl={fit_right.imgurl} category="Fitness_Blog" date='Sept 9 2021' />
+                                <Bollywoodrightdiv key={fit_right.id} title={fit_right.title} imgurl={fit_right.imgurl} category="Fitness_Blog" date='Sept 9 2021' />
                             )
                         })
                     }

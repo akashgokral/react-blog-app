@@ -17,7 +17,7 @@ const Hollywood = () => {
                     {
                         hollywood.map(hollywood => {
                             return (
-                                <Link to="/blog"> <Waves title={hollywood.title} imgurl={hollywood.imgurl} content={hollywood.content} fontsize="18" marginTop='12' category="Click to Read More" /></Link>
+                                <Waves key={hollywood.id} title={hollywood.title} imgurl={hollywood.imgurl} content={hollywood.content} fontsize="18" marginTop='12' category="Click to Read More" id={hollywood.id} cat={hollywood.cat} />
                             )
                         })
                     }
@@ -29,7 +29,7 @@ const Hollywood = () => {
                     {
                         holly_right.map(holly_right => {
                             return (
-                                <Bollywoodrightdiv title={holly_right.title} imgurl={holly_right.imgurl} category="Hollywood_Blogger" date="FEB 19, 2022" />
+                                <Bollywoodrightdiv key={holly_right.id} title={holly_right.title} imgurl={holly_right.imgurl} category="Hollywood_Blogger" date="FEB 19, 2022" />
                             )
                         })
                     }

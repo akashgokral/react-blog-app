@@ -7,7 +7,7 @@ const Waves = ({ imgurl, title, content, fontsize, category, date, marginTop, id
   return <>
     <Link to={`/${cat}/blog/${id}`}>
       <div className='waves'>
-        <div className='waves_img'><img src={imgurl}></img> </div>
+        <div className='waves_img'><img src={imgurl} alt="abc"></img> </div>
         <div className='waves_content'>
           <h1 style={{ fontSize: `${fontsize}px`, }}>{title}</h1>
           <p style={{ marginTop: `${marginTop}px` }}>{content}</p>

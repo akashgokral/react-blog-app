@@ -8,7 +8,7 @@ const Blog_bottom_div = () => {
         <>
             <div className='blog_bottom_div'>
                 < div className='blog_bottom_div_img'>
-                    <img src={img1}></img></div>
+                    <img src={img1} alt="abc"></img></div>
                 < div className='blog_bottom_div_title'>
                     <h2>Joshua Tree Overnight Adventure</h2>
 
