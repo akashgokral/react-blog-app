@@ -8,7 +8,6 @@ import insta from "../Blog/insta.png"
 import wa from "../Blog/wa.png"
 import twitter from "../Blog/twitter.png"
 
-import Blog_bottom_div from './Blog_bottom_div'
 import { useParams, Link } from 'react-router-dom'
 import { bollywood, technology, hollywood, fitness, food, safety } from '../Home/Api';
 
@@ -25,7 +24,7 @@ const Blog = () => {
         if (cat == 'Covid-19') {
             const newd = safety.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -36,7 +35,7 @@ const Blog = () => {
         if (cat == 'bollywood') {
             const newd = bollywood.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -45,7 +44,7 @@ const Blog = () => {
         if (cat == 'technology') {
             const newd = technology.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -54,7 +53,7 @@ const Blog = () => {
         if (cat == 'hollywood') {
             const newd = hollywood.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -63,7 +62,7 @@ const Blog = () => {
         if (cat == 'fitness') {
             const newd = fitness.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -71,7 +70,7 @@ const Blog = () => {
         } if (cat == 'food') {
             const newd = food.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
