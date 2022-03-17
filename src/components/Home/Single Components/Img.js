@@ -9,8 +9,7 @@ const Img = () => {
     <div className='img-container'>
       <div className='left-img-div'>
         <img src={img1} alt="abc"></img>
-        <div className='parent'> <h1>Title of vertical gallery</h1>
-          <div className='child'><Date title="Travel" content="Aug 21 2017" /></div></div>
+
       </div>
 
       <div className='right-img-div'>

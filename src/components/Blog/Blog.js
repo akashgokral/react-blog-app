@@ -7,8 +7,7 @@ import fb from "../Blog/fb.png"
 import insta from "../Blog/insta.png"
 import wa from "../Blog/wa.png"
 import twitter from "../Blog/twitter.png"
-import react from "../Blog/react.png"
-import code from "./code.png"
+
 import Blog_bottom_div from './Blog_bottom_div'
 import { useParams, Link } from 'react-router-dom'
 import { bollywood, technology, hollywood, fitness, food, safety } from '../Home/Api';
@@ -23,7 +22,7 @@ const Blog = () => {
 
     const check = () => {
 
-        if (cat == 'safety') {
+        if (cat == 'Covid-19') {
             const newd = safety.filter((item) => {
                 return (
                     item.id == id
@@ -126,14 +125,14 @@ const Blog = () => {
                     <Face_data name="Dmitry Nozhenko" date="Jan 28, 2019 · 10 min read" written="Written By" />
                 </div>
             </div>
-            <div className='blog_bottom'>
+            {/* <div className='blog_bottom'>
                 <div className="blog_bottom_heading"><p>More From The Siren</p></div>
                 <div className='blog_bottom_div_parent'>
                     <Blog_bottom_div />
                     <Blog_bottom_div />
                     <Blog_bottom_div />
                 </div>
-            </div>
+            </div> */}
 
 
 

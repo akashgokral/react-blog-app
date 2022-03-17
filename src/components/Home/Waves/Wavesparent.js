@@ -4,7 +4,7 @@ import Latest from '../Single Components/Latest';
 import "../styles/wavesparent.css"
 import Advertisment from './Advertisment';
 import { safety } from '../Api';
-import { Link } from 'react-router-dom';
+
 
 const Wavesparent = () => {
   return <>
@@ -14,7 +14,7 @@ const Wavesparent = () => {
         {
           safety.map(safetyblog => {
             return (
-              < Waves imgurl={safetyblog.imgurl} content={safetyblog.content} title={safetyblog.title} category="Safety_blog" date="Aug 28 2017" id={safetyblog.id} cat={safetyblog.cat} />
+              < Waves imgurl={safetyblog.imgurl} content={safetyblog.content} title={safetyblog.title} category="Click to read more" id={safetyblog.id} cat={safetyblog.cat} />
             )
           })
 
