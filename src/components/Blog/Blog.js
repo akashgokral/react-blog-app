@@ -23,7 +23,7 @@ const Blog = () => {
         if (cat === 'Covid-19') {
             const newd = safety.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -34,16 +34,18 @@ const Blog = () => {
         if (cat === 'bollywood') {
             const newd = bollywood.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
+
                 )
             }
             )
+
             setnewData(newd);
         }
         if (cat === 'technology') {
             const newd = technology.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -52,7 +54,7 @@ const Blog = () => {
         if (cat === 'hollywood') {
             const newd = hollywood.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -61,7 +63,7 @@ const Blog = () => {
         if (cat === 'fitness') {
             const newd = fitness.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )
@@ -69,7 +71,7 @@ const Blog = () => {
         } if (cat === 'food') {
             const newd = food.filter((item) => {
                 return (
-                    item.id == id
+                    item.id === id
                 )
             }
             )

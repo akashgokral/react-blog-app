@@ -6,7 +6,7 @@ import "../Home/styles/fitness.css"
 import Bollywoodrightimgdiv from '../Bollywood/Bollywoodrightimgdiv'
 import Bollywoodrightdiv from '../Bollywood/Bollywoodrightdiv'
 import Advertisment from '../Home/Waves/Advertisment'
-import { Link } from 'react-router-dom'
+
 
 
 const Fitness = () => {

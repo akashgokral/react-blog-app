@@ -6,7 +6,7 @@ import Waves from '../Home/Waves/Waves'
 import '../Home/styles/technology.css'
 import Bollywoodrightdiv from '../Bollywood/Bollywoodrightdiv'
 import Advertisment from '../Home/Waves/Advertisment'
-import { Link } from 'react-router-dom'
+
 
 const Technology = () => {
     return (
