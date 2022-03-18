@@ -8,8 +8,9 @@ const Verticalrightdiv = ({ imgurl, title }) => {
 
     <div className='vertical_right_div'>
       <div className='vertical_right_div_img'><img src={imgurl} alt="abc"></img></div>
-      <div><h2>{title}</h2>
-        <Date title="World Animal protection" content="Blog" /></div>
+      <div className='right__div2'><h2>{title}</h2>
+        <Date title="World Animal protection" content="Blog" />
+      </div>
     </div>
 
 

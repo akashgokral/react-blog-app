@@ -1,6 +1,4 @@
 .stories {
-
-    height: 400px;
     width: 400px;
     padding: 15px 40px;
     border-left: 3px solid #f0f0f0;
@@ -16,4 +14,21 @@
 .stories_content p {
     margin-top: 25px;
     height: 250px;
+}
+
+@media screen and (max-width:760px) {
+    .stories {
+        width: 100%;
+        padding: 0;
+    }
+
+    .stories h2 {
+        width: 100%;
+    }
+
+    .stories_content p {
+        margin: 0;
+        width: 100%;
+        height: max-content;
+    }
 }

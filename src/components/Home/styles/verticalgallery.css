@@ -1,7 +1,6 @@
 .vertical {
     display: flex;
     justify-content: space-between;
-
 }
 
 .vertical_left {
@@ -10,7 +9,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-
 }
 
 .vertical_left_img {
@@ -27,4 +25,28 @@
 
 .vertical_right {
     margin-top: -330px;
+}
+
+@media screen and (max-width:760px) {
+    .vertical {
+        flex-direction: column;
+    }
+
+    .vertical_left {
+        width: 100%;
+    }
+
+    .vertical_left_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vertical_left_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vertical_right {
+        margin: 0;
+    }
 }
