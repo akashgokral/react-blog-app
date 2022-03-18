@@ -174,3 +174,9 @@
     font-weight: 600;
     width: 120px;
 }
+
+
+@media screen and (max-width:760px){
+.blog_icons{
+display:none;
+}}
