@@ -1,5 +1,5 @@
 .vertical_right_div_img {
-    width: 101px;
+    width: 151px;
     height: 104px;
     object-fit: cover;
 
@@ -13,12 +13,13 @@
 .vertical_right_div {
     display: flex;
     padding: 10px 0px;
-    margin-top: 25px;
+    margin-top: 20px;
+
 }
 
 .vertical_right_div h2 {
-    width: 200px;
-    height: 67px;
-    font-size: 20px;
+    width: 300px;
+    height: 73px;
+    font-size: 17px;
     padding-left: 10px;
 }

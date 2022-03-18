@@ -17,7 +17,7 @@ const Food = () => {
                     {
                         food.map(food => {
                             return (
-                                <Waves key={food.id} title={food.title} imgurl={food.imgurl} content={food.content} category="Click to Read More" id={food.id} cat={food.cat} />
+                                <Waves key={food.id} title={food.title} imgurl={food.imgurl} content={food.content} category="Food_blog / Click to Read More" id={food.id} cat={food.cat} />
                             )
                         })
                     }

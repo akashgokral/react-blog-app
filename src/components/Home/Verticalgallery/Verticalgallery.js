@@ -19,7 +19,7 @@ const Verticalgallery = () => {
         {
           verticalimg.map(vertical => {
             return (
-              < Verticalrightdiv imgurl={vertical.imgurl} />
+              < Verticalrightdiv imgurl={vertical.imgurl} title={vertical.title} />
             )
           }
           )

@@ -18,7 +18,7 @@ const Fitness = () => {
                     {
                         fitness.map(fitness => {
                             return (
-                                <Waves key={fitness.id} title={fitness.title} imgurl={fitness.imgurl} content={fitness.content} category="Click to Read More" id={fitness.id} cat={fitness.cat} />
+                                <Waves key={fitness.id} title={fitness.title} imgurl={fitness.imgurl} content={fitness.content} category="Fitness_Blog / Click to Read More" id={fitness.id} cat={fitness.cat} />
                             )
                         })
                     }

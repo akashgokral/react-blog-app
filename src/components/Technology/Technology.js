@@ -17,7 +17,7 @@ const Technology = () => {
                     {
                         technology.map(technology => {
                             return (
-                                <Waves key={technology.id} imgurl={technology.imgurl} title={technology.title} content={technology.content} category="Click to Read More" id={technology.id} cat={technology.cat} />
+                                <Waves key={technology.id} imgurl={technology.imgurl} title={technology.title} content={technology.content} category="Tech_Blog / Click to Read More" id={technology.id} cat={technology.cat} />
                             )
                         })
                     }

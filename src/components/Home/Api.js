@@ -140,13 +140,13 @@ export const safety = [
 export const verticalimg = [
 
     {
-        imgurl: img12
+        imgurl: img12, title: 'Intensive livestock farming is harming people, animals and the planet'
     },
     {
-        imgurl: img13
+        imgurl: img13, title: 'Top 6 tips on how to be a wildlife-friendly traveller'
     },
     {
-        imgurl: img14
+        imgurl: img14, title: 'If travel is about freedom, why does Expedia Group continue to profit from the captivity of dolphins?'
     }
 
 

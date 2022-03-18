@@ -6,7 +6,7 @@ import Bollywoodrightimgdiv from '../Bollywood/Bollywoodrightimgdiv.js'
 import "../Home/styles/hollywood.css"
 import Bollywoodrightdiv from "../Bollywood/Bollywoodrightdiv.js"
 import Advertisment from '../Home/Waves/Advertisment.js'
-import { Link } from 'react-router-dom'
+
 
 const Hollywood = () => {
     return (
@@ -17,7 +17,7 @@ const Hollywood = () => {
                     {
                         hollywood.map(hollywood => {
                             return (
-                                <Waves key={hollywood.id} title={hollywood.title} imgurl={hollywood.imgurl} content={hollywood.content} fontsize="18" marginTop='12' category="Click to Read More" id={hollywood.id} cat={hollywood.cat} />
+                                <Waves key={hollywood.id} title={hollywood.title} imgurl={hollywood.imgurl} content={hollywood.content} fontsize="18" marginTop='12' category="Hollywood_Blog / Click to Read More" id={hollywood.id} cat={hollywood.cat} />
                             )
                         })
                     }

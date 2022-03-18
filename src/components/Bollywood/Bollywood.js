@@ -22,7 +22,7 @@ const Bollywood = () => {
                 {
                     bollywood.map(bollywood => {
                         return (
-                            <Waves key={bollywood.id} title={bollywood.title} imgurl={bollywood.imgurl} content={bollywood.content} fontsize="18" marginTop='10' category="Click to Read More" id={bollywood.id} cat={bollywood.cat} />
+                            <Waves key={bollywood.id} title={bollywood.title} imgurl={bollywood.imgurl} content={bollywood.content} fontsize="18" marginTop='10' category="Bollywood_Blog/ Click to Read More" id={bollywood.id} cat={bollywood.cat} />
                         )
 
                     })
