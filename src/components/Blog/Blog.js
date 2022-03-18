@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react'
 import "../Blog/styles/blog.css"
 import rythm from "../Blog/rythm.svg"
 import share from "../Blog/share.svg"
-import Face_data from './Face_data'
+import Facedata from './Facedata'
 import fb from "../Blog/fb.png"
 import insta from "../Blog/insta.png"
 import wa from "../Blog/wa.png"
 import twitter from "../Blog/twitter.png"
-
 import { useParams, Link } from 'react-router-dom'
 import { bollywood, technology, hollywood, fitness, food, safety } from '../Home/Api';
 
