@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/img.css'
-import Date from "./Date"
 import img1 from "../../../Images/img1.jpg"
 
 

@@ -6,7 +6,7 @@ import Latest from '../Home/Single Components/Latest'
 import Advertisment from '../Home/Waves/Advertisment'
 import Waves from '../Home/Waves/Waves'
 import "../Home/styles/food.css"
-import { Link } from 'react-router-dom'
+
 
 const Food = () => {
     return (
