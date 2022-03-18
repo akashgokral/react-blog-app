@@ -30,6 +30,7 @@
 @media screen and (max-width:760px) {
     .vertical {
         flex-direction: column;
+width: 100%;
     }
 
     .vertical_left {
@@ -48,5 +49,6 @@
 
     .vertical_right {
         margin: 0;
+width: 100%;
     }
 }
