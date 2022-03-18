@@ -109,9 +109,15 @@ import img109 from "../../Images/img109.jpg"
 
 
 const latest = [
-    { id: '55', imgurl: img4, title: 'A public art itinerary', content: 'Want to spend the day experiencing the best public art across Doha? After getting a taste of the art scene through the many pieces at Hamad International Airport, indulge by venturing across the city, to see the public art pieces scattered across it.' },
-    { id: '56', imgurl: img5, title: 'Active itinerary', content: 'With its arid beauty, sunny climes and untrammeled deserts, Qatar has long called to adventurers.  Answering that call has never been more rewarding.' },
-    { id: '57', imgurl: img6, title: 'Business traveller', content: 'Qatar is a financial, trading and business centre of global significance  and a world-class hub for culture, relaxation, adventure, history, and sport.' }
+    {
+        id: '55', imgurl: img4, title: 'Cryptocurrency, New Regulations, and the FATF', content: 'One of the biggest recent developments – and currently flying under most people’s radar -- is the new regulations from the inter-governmental Financial Action Task Force (FATF) that have been imposed upon crypto exchanges globally.'
+    },
+    {
+        id: '56', imgurl: img5, title: 'Facebook New Cryptocurrency', content: 'Facebook—along with a consortium of some of the world’s most recognized financial firms, e-commerce and technology companies, academic institutions and venture capitalists'
+    },
+    {
+        id: '57', imgurl: img6, title: 'Is a Digital Asset a Security or … Is It Not?', content: 'Remember the game that kids used to play, where they would pick off the petals of daisies to determine whether their crush loves them, or loves them not?'
+    }
 ]
 
 export const safety = [

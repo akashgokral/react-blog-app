@@ -8,7 +8,7 @@ const Card1 = ({ imgurl, content, title }) => {
       <div className='card1-img'><img src={imgurl} alt="abc"></img></div>
       <h1>{title}</h1>
       <p className='card1-p'>{content}</p>
-      <Date title="Adventure" content="Sept 12 2017" />
+      <Date title="Cryptocurrency" content="Blog" />
     </div>
   </>;
 };
