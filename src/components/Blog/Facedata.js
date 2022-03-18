@@ -23,4 +23,4 @@ const Facedata = ({ name, date, written }) => {
     )
 }
 
-export default Face_data
+export default Facedata;
