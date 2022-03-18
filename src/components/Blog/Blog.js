@@ -21,10 +21,10 @@ const Blog = () => {
 
     const check = () => {
 
-        if (cat == 'Covid-19') {
+        if (cat === 'Covid-19') {
             const newd = safety.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
@@ -32,45 +32,45 @@ const Blog = () => {
         }
 
 
-        if (cat == 'bollywood') {
+        if (cat === 'bollywood') {
             const newd = bollywood.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
             setnewData(newd);
         }
-        if (cat == 'technology') {
+        if (cat === 'technology') {
             const newd = technology.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
             setnewData(newd);
         }
-        if (cat == 'hollywood') {
+        if (cat === 'hollywood') {
             const newd = hollywood.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
             setnewData(newd);
         }
-        if (cat == 'fitness') {
+        if (cat === 'fitness') {
             const newd = fitness.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
             setnewData(newd);
-        } if (cat == 'food') {
+        } if (cat === 'food') {
             const newd = food.filter((item) => {
                 return (
-                    item.id === id
+                    item.id == id
                 )
             }
             )
@@ -98,7 +98,7 @@ const Blog = () => {
             <div className='blog_right'>
                 {<div className='blog_right_heading'>{newData.length ? newData[0].title : 'loading'}</div>}
                 <div className='face_data_div'>
-                    <Face_data name={"Dmitry Nozhenko"} date="Jan 28, 2019 · 10 min read" />
+                    <Facedata name={"Dmitry Nozhenko"} date="Jan 28, 2019 · 10 min read" />
                     <div className='social_icons'>
                         <img src={fb} alt="abc"></img>
                         <img src={insta} alt="abc"></img>
@@ -121,7 +121,7 @@ const Blog = () => {
                     <div className='rythm'><img src={rythm} alt="abc"></img> <span>9.3 k claps</span></div>
                 </div>
                 <div className='face_data_parent'>
-                    <Face_data name="Dmitry Nozhenko" date="Jan 28, 2019 · 10 min read" written="Written By" />
+                    <Facedata name="Dmitry Nozhenko" date="Jan 28, 2019 · 10 min read" written="Written By" />
                 </div>
             </div>
             {/* <div className='blog_bottom'>

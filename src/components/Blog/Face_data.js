@@ -2,7 +2,7 @@ import React from 'react'
 import icon from "../Blog/icon.png"
 import "../Blog/styles/face_data.css"
 
-const Face_data = ({ name, date, written }) => {
+const Facedata = ({ name, date, written }) => {
     return (
         <>
             <div className='face_data'>
