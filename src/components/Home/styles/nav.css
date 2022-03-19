@@ -38,9 +38,29 @@ nav ul li {
 
     }
 
+
     .navigation {
         display: none;
     }
 
+    a.links {
+        color: white;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 83px;
+        right: 0;
+        width: 100%;
+        background: black;
+
+
+        /* background: black; */
+
+
+
+    }
 
 }
