@@ -30,11 +30,12 @@
 @media screen and (max-width:760px) {
     .vertical {
         flex-direction: column;
-width: 100%;
+        width: 100%;
     }
 
     .vertical_left {
         width: 100%;
+        height: auto;
     }
 
     .vertical_left_img {
@@ -49,6 +50,6 @@ width: 100%;
 
     .vertical_right {
         margin: 0;
-width: 100%;
+        width: 100%;
     }
 }

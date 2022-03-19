@@ -51,6 +51,9 @@
 
     .card1-p {
         width: 100%;
+        font-size: 18px;
+        margin-top: 15px;
+        height: auto;
     }
 
 }
