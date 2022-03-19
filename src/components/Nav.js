@@ -2,6 +2,9 @@ import React from 'react';
 import '../components/Home/styles/nav.css'
 import { Link } from 'react-router-dom';
 
+
+
+
 const Nav = () => {
   return <>
     <nav>
@@ -15,8 +18,8 @@ const Nav = () => {
 
       </ul>
 
-
     </nav >
+
 
 
 

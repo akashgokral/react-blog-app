@@ -29,11 +29,10 @@
     .vertical_right_div {
         width: 100%;
         justify-content: flex-start;
+        height: auto;
     }
 
-    .vertical_right_div_img {
-        width: 100%;
-    }
+
 
     .vertical_right_div_img img {
         width: 100%;
@@ -42,14 +41,16 @@
 
     .vertical_right_div_img {
         width: 40%;
+        height: auto;
     }
 
     .right__div2 {
         width: 60%;
+        height: auto;
     }
 
     .right__div2 h2 {
         width: 100%;
-
+        height: auto;
     }
 }

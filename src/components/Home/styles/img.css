@@ -68,7 +68,7 @@
 
     .left-img-div img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .right-img-div {
@@ -83,13 +83,13 @@
 
     .top-img-div img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .bottom-img-div img {
         width: 100%;
         margin: 0;
-        height: auto;
+        height: 100%;
 
 
     }
