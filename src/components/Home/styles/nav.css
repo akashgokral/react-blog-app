@@ -27,14 +27,20 @@ nav ul li {
     color: #000;
 }
 
+.mobilenavigation {
+    display: none;
+}
 
 
 @media screen and (max-width:760px) {
-    nav {
-        display: none;
+    .mobilenavigation {
+        display: flex;
+
     }
 
-
+    .navigation {
+        display: none;
+    }
 
 
 }
