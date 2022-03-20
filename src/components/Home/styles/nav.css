@@ -44,7 +44,7 @@ nav ul li {
     }
 
     a.links {
-        color: white;
+        color: black;
     }
 
     nav ul {
@@ -54,10 +54,11 @@ nav ul li {
         top: 83px;
         right: 0;
         width: 100%;
-        background: black;
+        background: white;
+        height: 200px;
+        z-index: 999;
 
 
-        /* background: black; */
 
 
 

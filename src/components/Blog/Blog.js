@@ -84,7 +84,7 @@ const Blog = () => {
 
     useEffect(() => {
         check();
-    })
+    }, [])
 
     return (
         <>

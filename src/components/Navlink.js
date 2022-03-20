@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Navlink = () => {
+
+
     return (
         <> <ul>
             <li><Link to="/" className='links'>Home</Link></li>

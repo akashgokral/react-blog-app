@@ -28,13 +28,14 @@ const Header = () => {
 
     </div>
     <Navigation />
-    {open && <Mobilenavigation />}
+    {open && <div onClick={() => {
+      setopen(!open)
+    }}><Mobilenavigation /></div>}
 
 
 
   </div>;
 };
-
 export default Header;
 
 
