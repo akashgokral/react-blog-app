@@ -8,6 +8,7 @@ import Bollywoodrightdiv from './Bollywoodrightdiv';
 import Waves from '../Home/Waves/Waves'
 
 
+
 const Bollywood = () => {
 
 

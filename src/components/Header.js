@@ -5,6 +5,7 @@ import { ImCross } from "react-icons/im";
 import { useState } from "react";
 import Mobilenavigation from './Mobilenavigation';
 import Navigation from './Navigation';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -20,7 +21,7 @@ const Header = () => {
   return <div>
     <div className='header_1'>
 
-      <div className='header'><span>The</span><h1> Siren </h1>  </div>
+      <Link to="/"><div className='header'><span>The</span><h1> Siren </h1>  </div></Link>
 
       <div className='icon' >
         {open ? closeIcon : hamburgerIcon}

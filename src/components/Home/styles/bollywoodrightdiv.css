@@ -27,3 +27,25 @@
     margin: 15px 10px;
 
 }
+
+@media screen and (max-width:760px) {
+    .bollywoodrightdiv {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bollywoodrightimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bollywoodrightimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bollywoodrighttitle p {
+        width: 100%;
+        height: 100%;
+    }
+}
